@@ -15,7 +15,7 @@ function onMouseDrag(event) {
     // If there is no path, make one:
     if (!path) {
       path = new Path({
-          fillColor: 'black'
+        fillColor: 'black'
       });
       path.add(event.lastPoint);
     }

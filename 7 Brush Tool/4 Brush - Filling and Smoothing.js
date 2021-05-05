@@ -9,7 +9,7 @@ tool.maxDistance = 45;
 let path;
 
 function onMouseDown(event) {
-    path = new Path();
+  path = new Path();
   path.fillColor = 'red';
 
   path.add(event.point);
